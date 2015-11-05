@@ -113,3 +113,30 @@ const createWithMiddleware = applyMiddleware(
 ~~~
 
 I'm fairly new to redux, so there may be some things I can improve. I also didn't document everything, hopefully I will soon!
+
+##Example File Upload Action
+
+~~~js
+export function newComment(comment, postId, attachments){
+  let body = new FormData()
+  attachments.forEach((file)=> {
+    body.append('attachments[]', file)
+  })
+  body.append('user_id', user.id)
+  body.append('text', comment.text)
+  if(comment.status) body.append('status_id', comment.status)
+
+  return {
+    type: 'newComment',
+    url: `https://test.com`,
+    body,
+    comment,
+    postId,
+    mergeTo: 'comment',
+    options: {
+      credentials: 'same-origin',
+      method: 'post',
+    },
+    then: 'updateLatestComment'
+  }
+~~~
