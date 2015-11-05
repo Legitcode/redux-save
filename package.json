@@ -1,0 +1,28 @@
+{
+  "name": "redux-react-fetch",
+  "version": "0.0.1",
+  "description": "merge in styling with ajax requests in redux",
+  "main": "src/index.js",
+  "scripts": {
+    "test": " "
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/Legitcode/redux-react-fetch.git"
+  },
+  "keywords": [
+    "redux",
+    "react",
+    "fetch",
+    "middleware"
+  ],
+  "author": "Zach Silveira",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Legitcode/redux-react-fetch/issues"
+  },
+  "homepage": "https://github.com/Legitcode/redux-react-fetch#readme",
+  "dependencies": {
+    "isomorphic-fetch": "^2.2.0"
+  }
+}
