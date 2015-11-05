@@ -60,6 +60,7 @@ It is a wrapper around [isomorphic-fetch](https://github.com/matthew-andrews/iso
 
 - The body is JSON stringified for you, if it is a plain object. (If you send multipart/form-data you don't want it stringified)
 - `then` is optional. The same action will be called on success if it is not set. You can set `catch` as well.
+- `mergeTo` is the key to merge your object to, defaults to `body`
 
 ###Merge all the things!
 
