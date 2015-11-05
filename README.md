@@ -1,6 +1,8 @@
 
 ##Redux React Fetch
 
+`npm install redux-react-fetch --save`
+
 ###What is this?
 
 It's not as complicated as it sounds. There's a bunch of promise-based middleware out there, this one simple expands on that idea. Take a look at [redux-fetch](https://www.npmjs.com/package/redux-fetch). This library is, in my opinion, easier to use and does something awesome, and that's merging. Before we get to that, here's the idea:
