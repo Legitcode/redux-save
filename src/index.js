@@ -25,7 +25,7 @@ const options = {
   }
 }
 
-export default function reduxReactFetch(config) => {
+export default function reduxReactFetch(config) {
   if(!config) config = {}
 
   return store => next => action => { // eslint-disable-line
