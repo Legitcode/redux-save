@@ -1,5 +1,3 @@
-import fetch from 'isomorphic-fetch'
-
 const start = {
   opacity: 0.5,
   transition: 'opacity .5s ease-in-out'
@@ -25,7 +23,7 @@ const options = {
   }
 }
 
-export default function reduxReactFetch(config) {
+export default function reduxReactFetch(fetch, config) {
   if(!config) config = {}
 
   return store => next => action => { // eslint-disable-line

@@ -1,10 +1,10 @@
 {
   "name": "redux-react-fetch",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "merge in styling with ajax requests in redux",
   "main": "dist/index.js",
   "scripts": {
-    "start": "webpack"
+    "start": "babel src --out-dir dist"
   },
   "repository": {
     "type": "git",
@@ -26,7 +26,10 @@
     "isomorphic-fetch": "^2.2.0"
   },
   "devDependencies": {
+    "babel-core": "^5.8.33",
     "babel-loader": "^5.3.3",
+    "exports-loader": "^0.6.2",
+    "expose-loader": "^0.7.1",
     "webpack": "^1.12.3"
   }
 }

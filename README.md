@@ -19,12 +19,15 @@ If you are writing a lot of promises, chances are you have been checking if requ
 
 ###Include the Middleware
 
+You can pass in your preferred fetch implementation!
+
 ~~~js
 import { createStore, applyMiddleware } from 'redux'
 import reduxReactFetch from 'redux-react-fetch'
+import fetch from 'isomorphic-fetch'
 
 const createWithMiddleware = applyMiddleware(
-  reduxReactFetch()
+  reduxReactFetch(fetch)
 )(createStore)
 ~~~
 
@@ -107,7 +110,7 @@ const endFail = {
 }
 
 const createWithMiddleware = applyMiddleware(
-  reduxFetchMerger({start, end, endfail})
+  reduxFetchMerger(fetch, {start, end, endfail})
 )(createStore)
 ~~~
 
