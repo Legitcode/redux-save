@@ -1,6 +1,6 @@
 {
   "name": "redux-react-fetch",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "merge in styling with ajax requests in redux",
   "main": "dist/index.js",
   "scripts": {
