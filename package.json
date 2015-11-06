@@ -4,7 +4,7 @@
   "description": "merge in styling with ajax requests in redux",
   "main": "dist/index.js",
   "scripts": {
-    "start": "babel src --out-dir dist"
+    "start": "webpack"
   },
   "repository": {
     "type": "git",
@@ -26,6 +26,7 @@
     "isomorphic-fetch": "^2.2.0"
   },
   "devDependencies": {
-    "babel-cli": "^6.1.2"
+    "babel-loader": "^5.3.3",
+    "webpack": "^1.12.3"
   }
 }
