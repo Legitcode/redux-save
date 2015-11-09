@@ -3,6 +3,8 @@
 
 `npm install redux-react-fetch --save`
 
+![](http://f.cl.ly/items/2V1Y3R0b3F0v0t2E1x0H/gif.gif)
+
 ###What is this?
 
 It's not as complicated as it sounds. There's a bunch of promise-based middleware out there, this one simple expands on that idea. Take a look at [redux-fetch](https://www.npmjs.com/package/redux-fetch). This library is, in my opinion, easier to use and does something awesome, and that's merging. Before we get to that, here's the idea:
