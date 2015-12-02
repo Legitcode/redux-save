@@ -1,6 +1,6 @@
 {
-  "name": "redux-react-fetch",
-  "version": "0.0.4",
+  "name": "redux-save",
+  "version": "0.0.1",
   "description": "merge in styling with ajax requests in redux",
   "main": "dist/index.js",
   "scripts": {
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/Legitcode/redux-react-fetch.git"
+    "url": "git+ssh://git@github.com/Legitcode/redux-save.git"
   },
   "keywords": [
     "redux",
@@ -19,9 +19,9 @@
   "author": "Zach Silveira",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Legitcode/redux-react-fetch/issues"
+    "url": "https://github.com/Legitcode/redux-save/issues"
   },
-  "homepage": "https://github.com/Legitcode/redux-react-fetch#readme",
+  "homepage": "https://github.com/Legitcode/redux-save#readme",
   "dependencies": {
     "isomorphic-fetch": "^2.2.0"
   },
