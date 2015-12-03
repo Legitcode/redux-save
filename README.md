@@ -1,7 +1,25 @@
 
 #redux-save
 
-... coming soon
+##Stores
+
+Work the same as regular redux, except when you create your store, do it like this:
+
+```js
+import initialState from 'redux-save/web'
+
+const store = createStore(counterApp, initialState('counterApp'))
+```
+
+Pass in a unique name for each store, and `redux-save` does the rest.
+On the server, you should pass down data to `window.__INITIAL_STATE__` if you're using this on the web.
+
+Want to use immutablejs? That's what functions are for:
+
+```js
+const store = createStore(counterApp, Immutable.Map(initialState('counterApp')))
+```
+
 
 
 
