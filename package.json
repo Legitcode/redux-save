@@ -23,7 +23,8 @@
   },
   "homepage": "https://github.com/Legitcode/redux-save#readme",
   "dependencies": {
-    "isomorphic-fetch": "^2.2.0"
+    "isomorphic-fetch": "^2.2.0",
+    "koa-send": "^2.0.2"
   },
   "devDependencies": {
     "babel-core": "^5.8.33",
